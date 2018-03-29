@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BIGLUVToken</title>
+  <script src="./app.js"></script>
+    <style>
+    .hoverable:hover {
+        -webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .card-panel {
+        width: 800px;
+        margin-left: 25%;
+    }
+
+    .card-panel {
+        -webkit-transition: -webkit-box-shadow .25s;
+        transition: -webkit-box-shadow .25s;
+        transition: box-shadow .25s;
+        transition: box-shadow .25s, -webkit-box-shadow .25s;
+        padding: 24px;
+        margin: 0.5rem 0 1rem 0;
+        border-radius: 2px;
+        background-color: #fff!important;
+    }
+
+.waves-effect {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    vertical-align: middle;
+    z-index: 1;
+    -webkit-transition: .3s ease-out;
+    transition: .3s ease-out;
+}
+
+.btn, .btn-large {
+    text-decoration: none;
+    color: #fff;
+    background-color: #26a69a;
+    text-align: center;
+    letter-spacing: .5px;
+    -webkit-transition: .2s ease-out;
+    transition: .2s ease-out;
+    cursor: pointer;
+    padding: 9px 18px;
+    border: 1px solid
+}
+
+input{
+      padding: 6px;
+}
+#maxcon {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 2% 0;
+}
+        body{
+            background-color: #f1f1f1;
+            margin: 0px;
+        }
+
+        .header{
+            text-align: center;
+        }
+        h5{
+          font-family: sans-serif;
+          font-size: 20px;
+        }
+        .card-panel{
+            width:800px;
+            margin-left: 25%;
+        }
+        h4{
+            color: #688521;
+            font-size: 27px;
+            font-family: initial;
+        }
+        input{
+            width:50% !important;
+        }
+        span{
+                color: #a5572a;  }
+
+
+    </style>
+
+
+</head>
+<body>
+<div class="header">
+<h4>BIGLUV TOKEN Dapp</h4>
+<h5>Ether Send To: <span id="contractaddress"></span></h5>
+<h5>Ether Received: <span id="getethr"></span> ETH</h5>
+
+</div>
+
+</body>
+</html>
